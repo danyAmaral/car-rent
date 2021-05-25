@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Rent.Car.Domain\Rent.Car.Domain.csproj" />
+    <ProjectReference Include="..\Rent.Car.Infrastructure\Rent.Car.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

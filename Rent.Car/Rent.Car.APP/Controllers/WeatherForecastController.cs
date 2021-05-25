@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Rent.Car.API.Controllers
+namespace Rent.Car.APP.Controllers
 {
     [ApiController]
     [Route("[controller]")]

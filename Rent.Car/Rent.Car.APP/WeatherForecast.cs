@@ -1,6 +1,6 @@
 using System;
 
-namespace Rent.Car.API
+namespace Rent.Car.APP
 {
     public class WeatherForecast
     {
