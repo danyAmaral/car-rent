@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{E9F5D4E0-1693-41B3-947E-821D34D583E3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Application", "2- Application", "{E9F5D4E0-1693-41B3-947E-821D34D583E3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rent.Car.Application", "Rent.Car.Application\Rent.Car.Application.csproj", "{B4BD6602-5A80-4308-A976-C69F669B3FE0}"
 EndProject
@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rent.Car.Infrastructure", "Rent.Car.Infrastructure\Rent.Car.Infrastructure.csproj", "{48D24A7C-1B1A-4AA3-802C-60F14E24FB6C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Domain", "2- Domain", "{329F6811-9865-4CB2-9358-CDFF404B104D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Domain", "3- Domain", "{329F6811-9865-4CB2-9358-CDFF404B104D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rent.Car.Domain", "Rent.Car.Domain\Rent.Car.Domain.csproj", "{2B67F041-7686-4322-8846-8C46F6D4BD4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rent.Car.Domain", "Rent.Car.Domain\Rent.Car.Domain.csproj", "{2B67F041-7686-4322-8846-8C46F6D4BD4C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Host", "1 - Host", "{85E3CFC1-0157-41A2-8235-6AB26A1E9867}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rent.Car.APP", "Rent.Car.APP\Rent.Car.APP.csproj", "{5080F8B4-5D0F-4EA7-817F-5B7BF8CF7D93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rent.Car.APP", "Rent.Car.APP\Rent.Car.APP.csproj", "{5080F8B4-5D0F-4EA7-817F-5B7BF8CF7D93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

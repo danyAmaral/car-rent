@@ -2,9 +2,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Rent.Car.Domain.Interfaces;
+using Rent.Car.Infrastructure;
+using Rent.Car.Infrastructure.Data;
 
 namespace Rent.Car.APP
 {
@@ -21,7 +25,13 @@ namespace Rent.Car.APP
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            // In production, the Angular files will be served from this directory
+
+            services.AddScoped<IGearType, GearTypes>();
+
+            var connectionString = Configuration.GetConnectionString("SqlConnection");
+            services.AddDbContext<RentCarContext>(options => options.UseSqlServer(connectionString));
+            services.AddScoped<RentCarContext>();
+
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/dist";
